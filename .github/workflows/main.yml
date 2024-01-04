@@ -1,12 +1,8 @@
-on:
-    push:
-      branches: [ master ]
-name: 🚀 Deploy website on push
+name: hello-world
+on: push
 jobs:
-  web-deploy:
-    name: 🎉 Deploy
+  my-job:
     runs-on: ubuntu-latest
     steps:
-      - name : Display-Hellow-World
-        run : php echo "Hello World...."
-
+      - name: my-step
+        run: echo "Hello World!"
