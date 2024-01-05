@@ -15,5 +15,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server:  ftp.workflowtest.com
-        username: tpadmin@workflowtest.com
+        username: ftpadmin@workflowtest.com
         password: Eastern@123!
