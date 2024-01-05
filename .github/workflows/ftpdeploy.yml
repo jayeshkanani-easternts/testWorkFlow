@@ -16,4 +16,4 @@ jobs:
       with:
         server:  94.130.17.90
         username: ftpadmin@workflowtest.com
-        password: Eastern@123!
+        password: ${{ secrets.ftp_password }}
